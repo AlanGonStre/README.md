@@ -1,9 +1,9 @@
 # README.md
 TEBACOM-ASP.NET-EF6
 
-# 🏫 Sistema TEBACOM – ASP.NET + Entity Framework 6 + SQL Server
+#  Sistema TEBACOM – ASP.NET + Entity Framework 6 + SQL Server
 
-## 📘 Descripción del Proyecto
+##  Descripción del Proyecto
 **TEBACOM (Telebachillerato Comunitario)** es un sistema desarrollado para la **Secretaría de Educación de Veracruz (SEV)** con el propósito de optimizar la gestión académica, administrativa y operativa de los planteles comunitarios.  
 
 Permite realizar la **inscripción y reinscripción de alumnos**, la **captura y consulta de calificaciones**, el **seguimiento docente**, la **administración de ciclos escolares** y la **generación de reportes oficiales en PDF** mediante Microsoft **ReportViewer**.  
@@ -12,7 +12,7 @@ El sistema se desarrolló aplicando los principios de **Programación Orientada 
 
 ---
 
-## 🧠 Tecnologías Utilizadas
+##  Tecnologías Utilizadas
 | Componente | Tecnología |
 |-------------|-------------|
 | Lenguaje de programación | C# |
