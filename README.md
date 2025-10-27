@@ -1,27 +1,12 @@
 # README.md
-TEBACOM-ASP.NET-EF6
 
-#  Sistema TEBACOM – ASP.NET + Entity Framework 6 + SQL Server
+El proyecto consiste en el desarrollo de un sistema modular para la gestión de Telebachilleratos Comunitarios (TEBACOM), enfocado en la administración de alumnos, docentes, calificaciones y reportes académicos.
+Se desarrollará aplicando los principios de Programación Orientada a Objetos (POO), modelando las entidades principales como clases (por ejemplo, Alumno, Docente, Grupo, Materia, Reporte) e implementando métodos que representen sus comportamientos, tales como registrar, consultar, actualizar y eliminar registros (CRUD).
 
-##  Descripción del Proyecto
-**TEBACOM (Telebachillerato Comunitario)** es un sistema desarrollado para la **Secretaría de Educación de Veracruz (SEV)** con el propósito de optimizar la gestión académica, administrativa y operativa de los planteles comunitarios.  
+El proyecto se codificará en el lenguaje Java, debido a su robustez, portabilidad y facilidad para aplicar los principios de encapsulamiento, herencia, abstracción y polimorfismo.
+El entorno de desarrollo será Eclipse IDE, ya que ofrece una integración nativa con herramientas de modelado UML, depuración, control de versiones con GitHub, y soporte para el empaquetamiento de proyectos en formato .jar.
 
-Permite realizar la **inscripción y reinscripción de alumnos**, la **captura y consulta de calificaciones**, el **seguimiento docente**, la **administración de ciclos escolares** y la **generación de reportes oficiales en PDF** mediante Microsoft **ReportViewer**.  
+Este sistema permitirá mejorar la gestión escolar mediante clases orientadas a entidades reales, fomentando la reutilización de código, el mantenimiento estructurado y la escalabilidad del software. La aplicación se estructurará en paquetes lógicos como modelo, controlador y vista, cumpliendo con el patrón de diseño MVC (Modelo-Vista-Controlador).
 
-El sistema se desarrolló aplicando los principios de **Programación Orientada a Objetos (POO)** con **C#**, bajo una arquitectura en capas, utilizando **ASP.NET WebForms (.NET Framework 4.8)** y **Entity Framework 6.4** para la comunicación con la base de datos en **Microsoft SQL Server 2019**.  
-
----
-
-##  Tecnologías Utilizadas
-| Componente | Tecnología |
-|-------------|-------------|
-| Lenguaje de programación | C# |
-| Framework | .NET Framework 4.8 |
-| ORM | Entity Framework 6.4 |
-| Base de datos | Microsoft SQL Server 2019 |
-| Gestor BD | SQL Server Management Studio (SSMS) |
-| Reportes | Microsoft ReportViewer 15.0 |
-| IDE | Microsoft Visual Studio 2022 |
-| Paradigma | Programación Orientada a Objetos (POO) |
-
----
+Justificación:
+Se selecciona Java y Eclipse IDE por su capacidad multiplataforma, su sintaxis orientada a objetos, el soporte empresarial (SEV/TEBACOM trabaja con bases de datos SQL Server compatibles vía JDBC) y la disponibilidad de librerías para conexión, interfaz gráfica y generación de reportes.
