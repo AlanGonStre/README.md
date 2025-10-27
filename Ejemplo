@@ -1,0 +1,51 @@
+// Clase Alumno
+public class Alumno {
+    private int alumnoId;
+    private String nombre;
+    private String apellido;
+    private String curp;
+    private String grado;
+    private String grupo;
+
+    // Constructor
+    public Alumno(int alumnoId, String nombre, String apellido, String curp, String grado, String grupo) {
+        this.alumnoId = alumnoId;
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.curp = curp;
+        this.grado = grado;
+        this.grupo = grupo;
+    }
+
+    // Getters y Setters
+    public int getAlumnoId() { return alumnoId; }
+    public void setAlumnoId(int alumnoId) { this.alumnoId = alumnoId; }
+
+    public String getNombre() { return nombre; }
+    public void setNombre(String nombre) { this.nombre = nombre; }
+
+    public String getApellido() { return apellido; }
+    public void setApellido(String apellido) { this.apellido = apellido; }
+
+    public String getCurp() { return curp; }
+    public void setCurp(String curp) { this.curp = curp; }
+
+    public String getGrado() { return grado; }
+    public void setGrado(String grado) { this.grado = grado; }
+
+    public String getGrupo() { return grupo; }
+    public void setGrupo(String grupo) { this.grupo = grupo; }
+
+    // Método
+    public void mostrarInformacion() {
+        System.out.println("Alumno: " + nombre + " " + apellido + " | Grado: " + grado + " | Grupo: " + grupo);
+    }
+}
+
+// Clase principal de prueba
+public class Main {
+    public static void main(String[] args) {
+        Alumno alumno1 = new Alumno(1, "Alan", "González", "GOAA010101HVZLNL09", "6°", "A");
+        alumno1.mostrarInformacion();
+    }
+}
